@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+.warp {
+	width: 1200px;
+	margin: 0 auto;
+	background: #9cf;
+}
+.header {
+	width: 100%;
+	float: left;
+}
+.menu {
+	float: right;
+}
+.menu li {
+	margin-top: 20px;
+	float: left;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.menu li a {
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.bodyer {
+	width: 100%;
+	float: left;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.search {
+	width: 640px;
+	margin-top: 30px;
+	margin-left: 280px;
+	float: left;
+}
+.text {
+	width: 530px;
+	height: 34px;
+	padding-left: 9px;
+	border: 1px solid #b8b8b8;
+	border-right: 0;
+	float: left;
+	background: url(../images/camera_grey.png) no-repeat 510px center;
+}
+.text:hover {
+	border: 1px solid #3385ff;
+	border-right: 0;
+	background: url(../images/camera_blue.png) no-repeat 510px center;
+}
+.submit {
+	width: 100px;
+	height: 36px;
+	background: #3385ff;
+	color: #fff;
+	font-size: 15px;
+	border: 0;
+	cursor: pointer;
+	float: left;
+}
+.submit:hover {
+	background: #317ef3;
+}
+.footer {
+	width: 100%;
+	float: left;
+}
+.qrcode {
+	width: 100%;
+	margin-top: 280px;
+	text-align: center;
+	float: left;
+}
+.qrcode p {
+	color: #666;
+	line-height: 24px;
+	font-weight: bold;
+}
+.p1 {
+	width: 100%;
+	margin-top: 15px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+}
+.p1 a {
+	margin: 0 10px;
+	color: #999;
+	text-decoration: underline;
+}
+.p2 {
+	width: 100%;
+	line-height: 22px;
+	text-align: center;
+	color: #999;
+	float: left;
+}
+.p2 a {
+	color: #999;
+	text-decoration: underline;
+}
+/*登录*/
+.logo_pass {
+	margin-top: 40px;
+	float: left;
+}
+.login_warp {
+	width: 100%;
+	margin-top: 30px;
+	background: url(../images/login-bg.png) no-repeat left center;
+	float: left;
+}
+.login_info {
+	border: 1px solid #eee;
+	width: 400px;
+	float: right;
+}
+.login_info ul {
+	width: 340px;
+	padding: 30px;
+	float: left;
+}
+.login_info ul li {
+	width: 100%;
+	margin-bottom: 20px;
+	float: left;
+}
+.login_info .t1 {
+	padding-left: 120px;
+	height: 32px;
+	line-height: 46px;
+	font-size: 16px;
+	background: url(../images/loginlogo.gif) no-repeat;
+	float: left;
+}
+.login_info .tel {
+	width: 320px;
+	height: 20px;
+	line-height: 20px;
+	padding: 9px;
+	border: 1px solid #eee;
+	float: left;
+}
+.login_info .password {
+	width: 320px;
+	height: 20px;
+	line-height: 20px;
+	padding: 9px;
+	border: 1px solid #eee;
+	float: left;
+}
+.login_info .login_btn {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #3385ff;
+	color: #fff;
+	font-size: 15px;
+	border: 0;
+	cursor: pointer;
+	float: left;
+}
+.login_info .login_btn:hover {
+	background: #317ef3;
+}
+.login_info .forget {
+	font-size: 12px;
+	color: #2e82ff;
+	float: left;
+}
+.login_info .reg {
+	font-size: 12px;
+	color: #2e82ff;
+	float: right;
+}
+.footer_text {
+	width: 100%;
+	margin-top: 200px;
+	text-align: center;
+	float: left;
+}
+/*注册*/
+.top_warp {
+	width: 100%;
+	padding: 20px 0 30px 0;
+	background: url(../images/reg_hr.png) no-repeat center bottom;
+	float: left;
+}
+.top_left {
+	padding-left: 50px;
+	float: left;
+}
+.top_left img {
+	margin-right: 20px;
+	float: left;
+}
+.top_left span {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #666;
+	border-left: 1px solid #eee;
+	padding-left: 20px;
+	line-height: 26px;
+	float: left;
+}
+.top_right {
+	margin-top: 10px;
+	margin-right:50px;
+	float: right;
+}
+.top_right span {
+	line-height: 32px;
+	float: left;
+}
+.top_right input {
+	color: #666;
+	border: 1px solid #ddd;
+	background: #f7f7f7;
+	height: 32px;
+	width: 64px;
+	margin-left: 10px;
+	float: left;
+	border-radius: 3px;/*CSS圆角属性*/
+}
+.reg_left {
+	margin: 50px 0 0 50px;
+	width: 500px;
+	float: left;
+}
+.reg_left ul {
+	width: 100%;
+	float: left;
+}
+.reg_left ul li {
+	width: 100%;
+	margin: 10px 0;
+	float: left;
+}
+.reg_left label {
+	width: 70px;
+	line-height: 40px;
+	margin-right: 10px;
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+	float: left;
+}
+.reg_left input {
+	width: 400px;
+	height: 20px;
+	line-height: 20px;
+	padding: 9px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	color: #666;
+	background: #FFF;
+	float: left;
+}
+.reg_left .edit_code {
+	width: 200px;
+}
+.reg_left .click_code {
+	background: #f7f7f7;
+	width: 190px;
+	height: 40px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.reg_left .click_code:hover {
+	background: #eee;
+}
+.reg_left .checkbox {
+	margin-left: 80px;
+	margin-right: 10px;
+	width: 16px;
+	float: left;
+}
+.reg_left .reg_btn {
+	width: 420px;
+	height: 40px;
+	line-height: 40px;
+	background: #3385ff;
+	color: #fff;
+	font-size: 15px;
+	border: 0;
+	cursor: pointer;
+	float: right;
+}
+.reg_left .reg_btn:hover {
+	background: #317ef3;
+}
+.reg_right {
+	margin: 50px;
+	width: 258px;
+	padding: 10px;
+	border: 1px solid #d1eeff;
+	float: right;
+}
+.reg_right h3 {
+	padding-left: 30px;
+	height: 50px;
+	line-height: 50px;
+	background: url(../images/phone.png) no-repeat left center;
+	border-bottom: 1px solid #e6edf2;
+	font-size: 14px;
+	color: #666;
+}
+.reg_right .t1 {
+	width: 100%;
+	color: #666;
+	font-size: 12px;
+	margin-top:15px;
+	float: left;
+}
+.reg_right .t2 {
+	width: 100%;
+	font-size: 14px;
+	color: #f18300;
+	font-weight: bold;
+	float: left;
+}
+.reg_right .t3 {
+	width: 100%;
+	color: #666;
+	font-size: 12px;
+	float: left;
+}
+.reg_right .t4 {
+	width: 100%;
+	margin-top:15px;
+	text-align:center;
+	float: left;
+}
+.reg_right .t4 img {
+	width:168px; height:168px;	
+}
